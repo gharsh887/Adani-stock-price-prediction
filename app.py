@@ -11,7 +11,7 @@ def predict(var1, var2, var3, var4):
     return prediction
 
 def main():
-    st.title('Stock Price Prediction')
+    st.title('Adani Enterprises Stock Price Prediction')
 
     var1 = st.number_input('Previous Day Open')
     var2 = st.number_input('Previous Day Low')
